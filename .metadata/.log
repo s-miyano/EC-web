@@ -1,0 +1,146 @@
+!SESSION 2017-11-01 12:44:41.982 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:45:37.482
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:45:37.482
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+!SESSION 2017-11-01 12:52:10.012 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:52:24.147
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:52:24.147
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:09:00.562
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:09:00.562
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+!STACK 0
+java.io.FileNotFoundException: D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:76)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:527)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:751)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:646)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:107)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:09:37.342
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:09:37.342
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+!STACK 0
+java.io.FileNotFoundException: D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:76)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:527)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:751)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:646)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:107)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:10:16.825
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:10:16.840
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+!STACK 0
+java.io.FileNotFoundException: D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:76)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:527)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:751)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:646)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:107)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-11-01 13:20:57.953
+!MESSAGE HTML 構文バリデーター finished validating: file:/D:/xampp/htdocs/Shop/Shop/user_guide/libraries/javascript.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-11-01 13:20:57.953
+!MESSAGE 警告: AbstractStructuredModel::close:  model manager was null during a close of a model (which should be impossible)
+!STACK 0
+java.lang.IllegalStateException: Warning: AbstractStructuredModel::close:  model manager was null during a close of a model (which should be impossible)
+	at org.eclipse.wst.sse.core.internal.model.AbstractStructuredModel.releaseFromRead(AbstractStructuredModel.java:1009)
+	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.releaseFromRead(DOMModelImpl.java:880)
+	at org.eclipse.wst.html.core.internal.document.DOMStyleModelImpl.releaseFromRead(DOMStyleModelImpl.java:44)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.releaseModel(HTMLValidator.java:220)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:355)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:420)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-11-01 13:20:58.977
+!MESSAGE ワークスペースは、このセッションで変更が保存されずに終了します。
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-11-01 13:20:58.982
+!MESSAGE HTML 構文バリデーター finished validating: file:/D:/xampp/htdocs/Shop/Shop/user_guide/tutorial/index.html
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-11-01 13:20:58.982
+!MESSAGE 
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validateFile(HTMLValidator.java:329)
+	at org.eclipse.wst.html.core.internal.validation.HTMLValidator.validate(HTMLValidator.java:420)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1178)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:351)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:64)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:75)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:48)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.deltaBuild(ValBuilderJob.java:211)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:179)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-11-01 13:20:59.348
+!MESSAGE プラットフォーム・シャットダウン後にまだ実行中のジョブが見つかりました。 ジョブはシャットダウン時にスケジュールされたプラグインによってキャンセルされる必要があります: org.eclipse.wst.validation.internal.ValBuilderJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-11-01 13:20:59.348
+!MESSAGE プラットフォーム・シャットダウン後にまだ実行中のジョブが見つかりました。 ジョブはシャットダウン時にスケジュールされたプラグインによってキャンセルされる必要があります: org.eclipse.wst.validation.internal.ValBuilderJob

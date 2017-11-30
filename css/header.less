@@ -1,0 +1,91 @@
+
+#header {
+  text-align: center;
+  h1 {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .headerContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 0 auto;
+
+    .logoArea {
+      width: 35%;
+      text-align: left;
+      a {
+        font-family: 'Special Elite', cursive;
+        font-size: 50px;
+      }
+    }
+
+    .infoArea {
+      width: 65%;
+      text-align: right;
+    }
+  }
+
+  .globalNavi {
+    width: 100%;
+    margin: 0 auto 20px;
+    ul {
+      width: 1000px;
+      margin: 0 auto;
+      display: flex;
+  		justify-content: center;
+      align-items: center;
+      li {
+        width: 100%;
+        border-left: 1px dashed #d3d3d3;
+        &:last-child {
+          border-right: 1px dashed #d3d3d3;
+        }
+        text-align: center;
+        a {
+          padding: 5px 5px;
+          margin: 0 auto;
+          display: block;
+          width: 100%;
+          span {
+            color: #808080;
+            display: block;
+          }
+          &:hover {
+            transition: .3s, ease-in;
+            color: #8de4e4;
+            span {
+              color: #afeeee;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sliderArea {
+    ul.slick-box {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        img {
+          max-width: 1600px;
+          width: 100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

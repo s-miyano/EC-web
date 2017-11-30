@@ -1,0 +1,45 @@
+!SESSION 2017-11-01 12:44:41.982 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:45:37.482
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:45:37.482
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+!SESSION 2017-11-01 12:52:10.012 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_144
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:52:24.147
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2017-11-01 12:52:24.147
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:09:00.562
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-11-01 13:09:00.562
+!MESSAGE D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+!STACK 0
+java.io.FileNotFoundException: D:\xampp\htdocs\Shop\.metadata\.plugins\org.eclipse.dltk.core.index.lucene\index\ea8ade64-caaf-4408-8917-48c517e243eb\timestamps\segments_1 (指定されたファイルが見つかりません。)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getContents(FileSystemStructureProvider.java:76)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFile(ImportOperation.java:527)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importRecursivelyFrom(ImportOperation.java:751)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.importFileSystemObjects(ImportOperation.java:646)
+	at org.eclipse.ui.wizards.datatransfer.ImportOperation.execute(ImportOperation.java:388)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:107)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
